@@ -10,11 +10,12 @@ import "izitoast/dist/css/iziToast.min.css";
 
 
 const inputStart = document.querySelector('#datetime-picker')
-const startButton = document.querySelector('[data-start="startBtn"]');
-const daysElem = document.querySelector('[data-days="value"]');
-const hoursElem = document.querySelector('[data-hours="value"]');
-const minutesElem = document.querySelector('[data-minutes="value"]');
-const secondsElem = document.querySelector('[data-seconds="value"]');
+const startButton = document.querySelector("#data-start");
+const daysElem = document.querySelector('#data-days');
+const hoursElem = document.querySelector('#data-hours');
+const minutesElem = document.querySelector('#data-minutes');
+const secondsElem = document.querySelector('#data-seconds');
+
 
 let userSelectedDate; 
 
