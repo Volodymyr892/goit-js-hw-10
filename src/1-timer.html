@@ -11,27 +11,29 @@
     <p><a href="./index.html">Go back home</a></p>
     Task-1
 
-    <input type="text" id="datetime-picker" />
-<button type="button" class="startBtn" id="data-start">Start</button>
-
-<div class="timer">
-  <div class="field">
-    <span class="value" id="data-days">00</span>
-    <span class="label">Days</span>
+  <div class="container">
+      <input class="time-picker" type="text" id="datetime-picker" />
+  <button type="button" class="startBtn" id="data-start">Start</button>
+  
+  <div class="timer">
+    <div class="field">
+      <span class="value" id="data-days">00</span>
+      <span class="label">Days</span>
+    </div>
+    <div class="field">
+      <span class="value" id="data-hours">00</span>
+      <span class="label">Hours</span>
+    </div>
+    <div class="field">
+      <span class="value" id="data-minutes">00</span>
+      <span class="label">Minutes</span>
+    </div>
+    <div class="field">
+      <span class="value" id="data-seconds">00</span>
+      <span class="label">Seconds</span>
+    </div>
   </div>
-  <div class="field">
-    <span class="value" id="data-hours">00</span>
-    <span class="label">Hours</span>
+      <script type="module" src="./js/1-timer.js"></script>
   </div>
-  <div class="field">
-    <span class="value" id="data-minutes">00</span>
-    <span class="label">Minutes</span>
-  </div>
-  <div class="field">
-    <span class="value" id="data-seconds">00</span>
-    <span class="label">Seconds</span>
-  </div>
-</div>
-    <script type="module" src="./js/1-timer.js"></script>
 </body>
 </html>
